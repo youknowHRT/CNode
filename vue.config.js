@@ -1,3 +1,6 @@
-module.exports={
-  publicPath: "/CNode/dist/"
+module.exports = {
+  publicPath: '/cnode/',
+  outputDir: 'dist',
+  assetsDir: 'static',
+  indexPath: 'index.html',
 }
