@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: '/cnode/',
+  publicPath: './',
   outputDir: 'dist',
   assetsDir: 'static',
   indexPath: 'index.html',
