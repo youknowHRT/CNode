@@ -8,6 +8,7 @@ import SideBar from '../components/SideBar'
 Vue.use(Router)
 
 export default new Router({
+  mode:'hash',
   routes:[
     {
       name:'root',
