@@ -30,7 +30,7 @@
                                 name:reply.author.loginname
                             }
                         }">
-                            <img :src="reply.author.avatar_url" alt="">
+                            <img :src="reply.author.avatar_url+`${Math.random()}`" alt="">
                         </router-link>
                        
                         <span>{{reply.author.loginname}}</span>

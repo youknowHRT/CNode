@@ -15,7 +15,7 @@
         <ul>
           <li v-for="post in posts" :key="post.index">
             <span class="postAvatar"
-              ><img :src="post.author.avatar_url" alt="头像"
+              ><img :src="post.author.avatar_url+`${Math.random()}`" alt="头像"
             /></span>
             <span class="all_count">
               <span class="reply_count">{{ post.reply_count }}</span>
